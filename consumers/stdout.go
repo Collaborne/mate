@@ -10,7 +10,7 @@ import (
 )
 
 // new StreamWriterProvider io.Writer instead of stdout
-// or new file writrer better
+// or new file writer better
 type stdoutConsumer struct{}
 
 func NewStdout() (Consumer, error) {
